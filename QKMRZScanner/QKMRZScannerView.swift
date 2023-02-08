@@ -44,10 +44,6 @@ public class QKMRZScannerView: UIView {
         return cutoutView.cutoutRect
     }
 
-    fileprivate var interfaceOrientation: UIInterfaceOrientation {
-        return UIApplication.shared.statusBarOrientation
-    }
-
     // MRZ scan completion
     public var scanCompletion: (String, CGImage) -> Void = { mrzString, image in
         os_log("No completion handler set for scan - unable to stop scanning", log: OSLog.default, type: .debug)
