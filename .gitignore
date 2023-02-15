@@ -34,3 +34,7 @@ Carthage/Build
 
 # Other
 .DS_Store
+
+# AppCode
+#
+/.idea/

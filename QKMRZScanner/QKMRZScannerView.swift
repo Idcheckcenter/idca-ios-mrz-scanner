@@ -207,10 +207,44 @@ public class QKMRZScannerView: UIView {
         ])
     }
 
+    fileprivate static func getCamera() -> AVCaptureDevice? {
+        var deviceTypes: Array<AVCaptureDevice.DeviceType> = Array()
+        if #available(iOS 13.0, *) {
+            if (Device.current.isOneOf([
+                Device.iPhone14Pro,
+                Device.iPhone14ProMax])){
+                deviceTypes.append(.builtInTripleCamera)
+                deviceTypes.append(.builtInDualWideCamera)
+            }
+        }
+        deviceTypes.append(.builtInWideAngleCamera)
+
+        let discoverySession = AVCaptureDevice.DiscoverySession(
+                deviceTypes: deviceTypes,
+                mediaType: AVMediaType.video,
+                position: .back)
+
+        if #available(iOS 13.0, *) {
+            for device in discoverySession.devices where device.deviceType == .builtInTripleCamera {
+                return device
+            }
+        }
+
+        for device in discoverySession.devices where device.deviceType == .builtInDualWideCamera {
+            return device
+        }
+
+        for device in discoverySession.devices where device.deviceType == .builtInWideAngleCamera {
+            return device
+        }
+
+        return nil
+    }
+
     fileprivate func initCaptureSession() {
         captureSession.sessionPreset = .hd1920x1080
 
-        guard let camera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {
+        guard let camera = getCamera() else {
             print("Camera not accessible")
             return
         }
