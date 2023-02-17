@@ -229,10 +229,10 @@ public class QKMRZScannerView: UIView {
             for device in discoverySession.devices where device.deviceType == .builtInTripleCamera {
                 return device
             }
-        }
-
-        for device in discoverySession.devices where device.deviceType == .builtInDualWideCamera {
-            return device
+            
+            for device in discoverySession.devices where device.deviceType == .builtInDualWideCamera {
+                return device
+            }
         }
 
         for device in discoverySession.devices where device.deviceType == .builtInWideAngleCamera {
@@ -245,7 +245,7 @@ public class QKMRZScannerView: UIView {
     fileprivate func initCaptureSession() {
         captureSession.sessionPreset = .hd1920x1080
 
-        guard let camera = getCamera() else {
+        guard let camera = QKMRZScannerView.getCamera() else {
             print("Camera not accessible")
             return
         }
