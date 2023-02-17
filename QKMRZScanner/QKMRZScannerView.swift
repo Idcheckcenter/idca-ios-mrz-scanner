@@ -12,7 +12,6 @@ import QKMRZParser
 import AudioToolbox
 import Vision
 import os.log
-import DeviceKit
 
 // MARK: - QKMRZScannerViewDelegate
 public protocol QKMRZScannerViewDelegate: AnyObject {
@@ -208,12 +207,23 @@ public class QKMRZScannerView: UIView {
         ])
     }
 
-    fileprivate static func getCamera() -> AVCaptureDevice? {
-        var deviceTypes: Array<AVCaptureDevice.DeviceType> = Array()
+    fileprivate static var identifier: String = {
+      var systemInfo = utsname()
+      uname(&systemInfo)
+      let mirror = Mirror(reflecting: systemInfo.machine)
+
+      let identifier = mirror.children.reduce("") { identifier, element in
+        guard let value = element.value as? Int8, value != 0 else { return identifier }
+        return identifier + String(UnicodeScalar(UInt8(value)))
+      }
+      return identifier
+    }()
+    
+    static func getCamera() -> AVCaptureDevice? {
+        var deviceTypes: [AVCaptureDevice.DeviceType] = Array()
         if #available(iOS 13.0, *) {
-            if (Device.current.isOneOf([
-                Device.iPhone14Pro,
-                Device.iPhone14ProMax])){
+            let identifier = identifier
+            if (identifier == "iPhone15,2" || identifier == "iPhone15,3") {
                 deviceTypes.append(.builtInTripleCamera)
                 deviceTypes.append(.builtInDualWideCamera)
             }
@@ -221,9 +231,9 @@ public class QKMRZScannerView: UIView {
         deviceTypes.append(.builtInWideAngleCamera)
 
         let discoverySession = AVCaptureDevice.DiscoverySession(
-                deviceTypes: deviceTypes,
-                mediaType: AVMediaType.video,
-                position: .back)
+            deviceTypes: deviceTypes,
+            mediaType: AVMediaType.video,
+            position: .back)
 
         if #available(iOS 13.0, *) {
             for device in discoverySession.devices where device.deviceType == .builtInTripleCamera {

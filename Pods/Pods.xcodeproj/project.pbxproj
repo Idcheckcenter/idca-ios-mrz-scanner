@@ -7,151 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028B53B9DDCC45DC27E76103668689F0 /* QKMRZParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 173EA427A657397AFE1132B1826E67A0 /* QKMRZParser-dummy.m */; };
+		028B53B9DDCC45DC27E76103668689F0 /* QKMRZParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F23304CBD312E916F0234E1C7C7C0AF9 /* QKMRZParser-dummy.m */; };
 		0CCF4F9ADD424B03CB24156D94D9449E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		0F0903626A3398D34480FF14639DDF29 /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C09852CCF439FBC0981F4A55D031C3A /* String-Ext.swift */; };
-		1778D2F492ACD9457E2C5EF1DF5F9837 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AEB18EA4F15046F8201B7DF02E3120 /* String+Extensions.swift */; };
-		181BF92D4AC3DAA306B272C406B843EC /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E642AF7A4E16EDA6F40AE45A28C9BE4 /* BoundingBox.swift */; };
-		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		2088DF7B4A503F7CFC10BA0674DB07F0 /* td1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992D6C9C78B6C8BE3703B97E9CC9D6C /* td1.swift */; };
+		0F0903626A3398D34480FF14639DDF29 /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1231DCFE478E703E345203B8782870 /* String-Ext.swift */; };
+		1778D2F492ACD9457E2C5EF1DF5F9837 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE709268F7888EA927B8241F13E950B /* String+Extensions.swift */; };
+		181BF92D4AC3DAA306B272C406B843EC /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCCB176C8F94A7A2F0676F2C7898F7 /* BoundingBox.swift */; };
+		2088DF7B4A503F7CFC10BA0674DB07F0 /* td1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9F6126FD80585A41547535BB8B8BF6 /* td1.swift */; };
 		234DAA85D9879468B1D6704A3B63BC7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		2E495113DCF6A324224250B838041A3E /* RecognizedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC6C3638DAD8419432B14057ADB8ECD /* RecognizedBlock.swift */; };
-		44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C833B8C137B180BCA6079E7C69554 /* DeviceKit-dummy.m */; };
+		2E495113DCF6A324224250B838041A3E /* RecognizedBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085A9BA6FB2527C69D809DC696E544B7 /* RecognizedBlock.swift */; };
+		4253E8AED6D7B9513E598E2017E2FDAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		44FFA8BD533295668967915F2F7EBE10 /* Pods-QKMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34CF088F04CF3F96B4FBC23DD7A7705 /* Pods-QKMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AE5DF1FDD9964CBD0B4B3A7AE382B3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		514DABFCF68B6064CB9F69E7E4A4ECFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		65678283D7763280BDBC37068DE63C7E /* MRZField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1F255E74F7E5E53608CD2F111CE582 /* MRZField.swift */; };
-		662629A7A47543E8A7F57B245159D598 /* td3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35D2D8AE3D54F34365E8614A8B8AB78 /* td3.swift */; };
-		66E7875D3FE18504CC62ABA3EEE3C8E0 /* QKMRZResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B66F1BD7EB50962A581BBC9BAB5F6 /* QKMRZResult.swift */; };
-		6D81A35301D3FD70605BF176460ABA90 /* MRZFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B65531E7C7A8C8E49A4DC2B25A35A /* MRZFieldFormatter.swift */; };
-		78543C7516613DA10029333DBEC82679 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E084182C977511BF218595EB4B9A806F /* SwiftyTesseract-dummy.m */; };
-		844BF5D887AE37C8F3B2837C35EF5471 /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABA7CEDAD4BBBAE33B4B0E12AA67A50 /* TesseractVariableName.swift */; };
-		8E9B0BB0D3CD70320CC1174A1D331F8E /* QKMRZParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C0628F0E6FD6AD569EA0DC6955579 /* QKMRZParser.swift */; };
-		8F6AA2C7E3959556CEC4969BEDB5FEE2 /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBEA1220B630E8A67E25C66C94B7B03 /* Bundle+pathToTrainedData.swift */; };
-		92498F7F095CDEA62643A3A813D15BC7 /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9B788BA55312BDF69106B6BDDB7327 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		940E53DBAE847E84B8FA73BC6AC9100D /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CA86315DFCD95AEA79A1C59F18E9F /* RecognitionLanguage.swift */; };
-		A3DF24D3C4DF26DDA3301CBDCBBD74DA /* QKMRZParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1201A724DC9C25825E409247FD2A06DE /* QKMRZParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADA2F62123304E4A5817212137314E97 /* Pods-QKMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64C14E087D57B66C503D715EFF4B7E /* Pods-QKMRZScanner-dummy.m */; };
-		AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F86135170F8A8BFEDC2AB6D8BA95F56 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA97551A88706B5BA822587EF6FFAA05 /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480BF6AEE4D213F68CCAB18B201E1A70 /* SwiftyTesseractError.swift */; };
-		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEEDAFD8F3407468EC92F0BFE1673A /* Device.generated.swift */; };
-		DC75CED47B71DDFD0EE3B8DBCE0D6385 /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01970B8478ACBE72EDFBD75E1E229BCA /* LanguageModelDataSource.swift */; };
-		E611E10D0B3FE7456F4C003293F23B3E /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB73370E96B282327EA3DB57E8070A /* SwiftyTesseract.swift */; };
-		E6B544C1D4F3FD2BAEB1D439FD565F03 /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4939D8EA1AE9D58B7C068612AD48D838 /* EngineMode.swift */; };
-		E6DEA77F5AE40423D6628A318FC39F54 /* td2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A80A71DA09EFF1F83169010F0B2DAF /* td2.swift */; };
-		E8CDCEF555F83B7A45EE541A491B0EBE /* Pods-QKMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34CF088F04CF3F96B4FBC23DD7A7705 /* Pods-QKMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDC5C61383E683FBFC7CB67C6C2E018A /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40894B9889E04E5E47A92D39CE825B40 /* LanguageStringConverter.swift */; };
-		FF61B49BE50A62809DB85F81F233B398 /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93867BC1CF9580107A380098C35B64 /* ResultIteratorLevel.swift */; };
+		53FA37C91A84D8B9C632E1D9929078FA /* Pods-QKMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64C14E087D57B66C503D715EFF4B7E /* Pods-QKMRZScanner-dummy.m */; };
+		65678283D7763280BDBC37068DE63C7E /* MRZField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5883BB31562DEC53F73927E1912D330 /* MRZField.swift */; };
+		662629A7A47543E8A7F57B245159D598 /* td3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7B17B393C6807D5EC6C4FA4C84B03 /* td3.swift */; };
+		66E7875D3FE18504CC62ABA3EEE3C8E0 /* QKMRZResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9C29E1F656B937696BF59E0DB8A7 /* QKMRZResult.swift */; };
+		6D81A35301D3FD70605BF176460ABA90 /* MRZFieldFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E7B22948C7C17365A96B96FBB9AFD2 /* MRZFieldFormatter.swift */; };
+		78543C7516613DA10029333DBEC82679 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EDB52D5AA6A33DA47E2CB09472FB24 /* SwiftyTesseract-dummy.m */; };
+		844BF5D887AE37C8F3B2837C35EF5471 /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D391EF7A2DC81E8F324C0A3218DCFEDE /* TesseractVariableName.swift */; };
+		8E9B0BB0D3CD70320CC1174A1D331F8E /* QKMRZParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC921AE798C57115592E1FB27DC7E6 /* QKMRZParser.swift */; };
+		8F6AA2C7E3959556CEC4969BEDB5FEE2 /* Bundle+pathToTrainedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775641D99A1A09F878C9968A6291EC54 /* Bundle+pathToTrainedData.swift */; };
+		92498F7F095CDEA62643A3A813D15BC7 /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CAED26577AD7C4BE8953D95DEFB325 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		940E53DBAE847E84B8FA73BC6AC9100D /* RecognitionLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99FCA5140480A37CCEF3A2D2A5819A /* RecognitionLanguage.swift */; };
+		A3DF24D3C4DF26DDA3301CBDCBBD74DA /* QKMRZParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A821D284B29A8AA38A436CA620B48CB1 /* QKMRZParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA97551A88706B5BA822587EF6FFAA05 /* SwiftyTesseractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B318ECB94D84ADC505DB291019E68D6E /* SwiftyTesseractError.swift */; };
+		DC75CED47B71DDFD0EE3B8DBCE0D6385 /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63427E3631E2CF0D78ACC49EF935D736 /* LanguageModelDataSource.swift */; };
+		E611E10D0B3FE7456F4C003293F23B3E /* SwiftyTesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1703BC07E1117CC746847067F8AF51 /* SwiftyTesseract.swift */; };
+		E6B544C1D4F3FD2BAEB1D439FD565F03 /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2459A4DB3377582B17262DDB5CFC20 /* EngineMode.swift */; };
+		E6DEA77F5AE40423D6628A318FC39F54 /* td2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE969423F57B1E3B27088C482873F00 /* td2.swift */; };
+		FDC5C61383E683FBFC7CB67C6C2E018A /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17F0E0F3BEA7E0BB56BA906A55C324 /* LanguageStringConverter.swift */; };
+		FF61B49BE50A62809DB85F81F233B398 /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7A583B7872EFD4635FB423163D027 /* ResultIteratorLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E623929F7386E006A9D8E3859A8F5A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
-			remoteInfo = SwiftyTesseract;
-		};
-		CBDF86094EA44E9B224CF97F81185F3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
-			remoteInfo = DeviceKit;
-		};
-		EEE5FB23647617AFBD8ED7E2E1ED1A70 /* PBXContainerItemProxy */ = {
+		0DAE4534B9BCFD2E03B0E1B21B36493B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
 			remoteInfo = QKMRZParser;
 		};
+		DF21C428A3D2B4C8D336515CC7FDFF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDA8701204211983085669C4E12E6FE;
+			remoteInfo = SwiftyTesseract;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01970B8478ACBE72EDFBD75E1E229BCA /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
-		11B14E2E73ECE184335232B42A3986C4 /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
-		1201A724DC9C25825E409247FD2A06DE /* QKMRZParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-umbrella.h"; sourceTree = "<group>"; };
-		173EA427A657397AFE1132B1826E67A0 /* QKMRZParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZParser-dummy.m"; sourceTree = "<group>"; };
-		18CBB1E13BE200F9C7D6AFEDF3B646AA /* SwiftyTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.release.xcconfig; sourceTree = "<group>"; };
-		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A3A1FF3DF769F0B93A1783B8B780AA /* SwiftyTesseract-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SwiftyTesseract-xcframeworks.sh"; sourceTree = "<group>"; };
+		085A9BA6FB2527C69D809DC696E544B7 /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
+		0B841BAAB7C1406DEDAFBE646AAB1DDD /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
+		0BE709268F7888EA927B8241F13E950B /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		0DE969423F57B1E3B27088C482873F00 /* td2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td2.swift; path = QKMRZParser/Parsers/td2.swift; sourceTree = "<group>"; };
+		0F17F0E0F3BEA7E0BB56BA906A55C324 /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
+		1A2459A4DB3377582B17262DDB5CFC20 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
+		1C1231DCFE478E703E345203B8782870 /* String-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Ext.swift"; path = "QKMRZParser/String-Ext.swift"; sourceTree = "<group>"; };
+		1C3F9C29E1F656B937696BF59E0DB8A7 /* QKMRZResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZResult.swift; path = QKMRZParser/QKMRZResult.swift; sourceTree = "<group>"; };
 		28325BB70560DB246AB3AE5D24A53B18 /* Pods-QKMRZScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKMRZScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		28BFE9113EBD01E76CCC43AF125C406E /* Pods-QKMRZScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QKMRZScanner"; path = Pods_QKMRZScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E7B22948C7C17365A96B96FBB9AFD2 /* MRZFieldFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZFieldFormatter.swift; path = QKMRZParser/MRZFieldFormatter.swift; sourceTree = "<group>"; };
+		29AC921AE798C57115592E1FB27DC7E6 /* QKMRZParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZParser.swift; path = QKMRZParser/QKMRZParser.swift; sourceTree = "<group>"; };
 		2F8880A6D4DB469AA47147A0522BD530 /* Pods-QKMRZScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QKMRZScanner-Info.plist"; sourceTree = "<group>"; };
-		33A80A71DA09EFF1F83169010F0B2DAF /* td2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td2.swift; path = QKMRZParser/Parsers/td2.swift; sourceTree = "<group>"; };
-		3714864A296654D46486F40D244BA3CF /* QKMRZParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-prefix.pch"; sourceTree = "<group>"; };
-		3F86135170F8A8BFEDC2AB6D8BA95F56 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
-		40894B9889E04E5E47A92D39CE825B40 /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
-		416CB2470DC59C8AD4FA49498224E2E1 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
+		3D2EE1909B4134EF696C984C9C70767F /* QKMRZParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-prefix.pch"; sourceTree = "<group>"; };
+		459A70B8E0DDDC6BCD25C2E28EB3940C /* QKMRZParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.release.xcconfig; sourceTree = "<group>"; };
 		470B0D69F320CB4435997C818298027D /* Pods-QKMRZScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QKMRZScanner.modulemap"; sourceTree = "<group>"; };
-		480BF6AEE4D213F68CCAB18B201E1A70 /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
-		4939D8EA1AE9D58B7C068612AD48D838 /* EngineMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineMode.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/EngineMode.swift; sourceTree = "<group>"; };
-		4B1F255E74F7E5E53608CD2F111CE582 /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
-		4E642AF7A4E16EDA6F40AE45A28C9BE4 /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
-		51BEEDAFD8F3407468EC92F0BFE1673A /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
-		576B65531E7C7A8C8E49A4DC2B25A35A /* MRZFieldFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZFieldFormatter.swift; path = QKMRZParser/MRZFieldFormatter.swift; sourceTree = "<group>"; };
-		58916D0C0670BB02D530257C5450D3BF /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
-		59AEB18EA4F15046F8201B7DF02E3120 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
-		5C93867BC1CF9580107A380098C35B64 /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
-		63DB73370E96B282327EA3DB57E8070A /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
-		6C7C833B8C137B180BCA6079E7C69554 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
-		795CA86315DFCD95AEA79A1C59F18E9F /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
-		7A9B788BA55312BDF69106B6BDDB7327 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
-		7B994F2F06D2A32CA80955B954B5ADE0 /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
-		7C09852CCF439FBC0981F4A55D031C3A /* String-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String-Ext.swift"; path = "QKMRZParser/String-Ext.swift"; sourceTree = "<group>"; };
+		4B99FCA5140480A37CCEF3A2D2A5819A /* RecognitionLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognitionLanguage.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/RecognitionLanguage.swift; sourceTree = "<group>"; };
+		4FDDE51DA8A0D8AC8B4B2CEFE578F1A9 /* SwiftyTesseract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyTesseract-Info.plist"; sourceTree = "<group>"; };
+		513E12F7583B50366675CCAAD5B91297 /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
+		5A1703BC07E1117CC746847067F8AF51 /* SwiftyTesseract.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseract.swift; path = SwiftyTesseract/SwiftyTesseract/SwiftyTesseract.swift; sourceTree = "<group>"; };
+		5B11AC741233ADB17C81A8911CB7C32A /* QKMRZParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZParser-Info.plist"; sourceTree = "<group>"; };
+		63427E3631E2CF0D78ACC49EF935D736 /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
+		64FAA583FC1A227218662750DF532813 /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
+		6B2D0EA7B2399CD05CC7203F2C9AD3C9 /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
+		74AECDB56EC95C1AD5C27D11EF1156CB /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
+		76CAED26577AD7C4BE8953D95DEFB325 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
+		775641D99A1A09F878C9968A6291EC54 /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
+		81E7B17B393C6807D5EC6C4FA4C84B03 /* td3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td3.swift; path = QKMRZParser/Parsers/td3.swift; sourceTree = "<group>"; };
 		8208C69518782F5498D1D7980C9FAA98 /* Pods-QKMRZScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QKMRZScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		875F2915B900AA25F823D570C17ABA9F /* QKMRZParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.debug.xcconfig; sourceTree = "<group>"; };
-		87A9B60BBEE5F426190C32C78921D5CF /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
-		8AEF165B5C38FFA7341C7F5BEBCD82BC /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
-		8CAB04374CC1775789A22BED14211887 /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
-		913D6B312887946F637197596884C720 /* DeviceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD0607771434C85A876D7FD5FE8432FE /* SwiftyTesseract-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SwiftyTesseract-xcframeworks.sh"; sourceTree = "<group>"; };
-		AD3C0628F0E6FD6AD569EA0DC6955579 /* QKMRZParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZParser.swift; path = QKMRZParser/QKMRZParser.swift; sourceTree = "<group>"; };
-		B7C0A9E3C2420DC72BB2FA89307D2067 /* SwiftyTesseract-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyTesseract-Info.plist"; sourceTree = "<group>"; };
-		BA573C0C12151CECB2065B0B44BEBF0A /* QKMRZParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QKMRZParser-Info.plist"; sourceTree = "<group>"; };
-		C0CD5FF39554F16A602DA691836EE7DC /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
+		A821D284B29A8AA38A436CA620B48CB1 /* QKMRZParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QKMRZParser-umbrella.h"; sourceTree = "<group>"; };
+		AB980565C094D810C6E89CBDBA607E53 /* SwiftyTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.release.xcconfig; sourceTree = "<group>"; };
+		B318ECB94D84ADC505DB291019E68D6E /* SwiftyTesseractError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTesseractError.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/SwiftyTesseractError.swift; sourceTree = "<group>"; };
 		C7ECC162FF7E57C6E878AC9C03CCEFEB /* Pods-QKMRZScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QKMRZScanner-acknowledgements.plist"; sourceTree = "<group>"; };
-		CABA7CEDAD4BBBAE33B4B0E12AA67A50 /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
-		CBB1F2DB15CA2DCB9C59955721CAFB31 /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		CAFCCB176C8F94A7A2F0676F2C7898F7 /* BoundingBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/BoundingBox.swift; sourceTree = "<group>"; };
 		CD64C14E087D57B66C503D715EFF4B7E /* Pods-QKMRZScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QKMRZScanner-dummy.m"; sourceTree = "<group>"; };
 		D0579590D0C93205406E0F132CC75E5C /* Pods-QKMRZScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QKMRZScanner.release.xcconfig"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D35D2D8AE3D54F34365E8614A8B8AB78 /* td3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td3.swift; path = QKMRZParser/Parsers/td3.swift; sourceTree = "<group>"; };
-		D66B66F1BD7EB50962A581BBC9BAB5F6 /* QKMRZResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QKMRZResult.swift; path = QKMRZParser/QKMRZResult.swift; sourceTree = "<group>"; };
-		DFC6C3638DAD8419432B14057ADB8ECD /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
-		E084182C977511BF218595EB4B9A806F /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		D391EF7A2DC81E8F324C0A3218DCFEDE /* TesseractVariableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TesseractVariableName.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/TesseractVariableName.swift; sourceTree = "<group>"; };
+		D4E7A583B7872EFD4635FB423163D027 /* ResultIteratorLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultIteratorLevel.swift; path = SwiftyTesseract/SwiftyTesseract/Enums/ResultIteratorLevel.swift; sourceTree = "<group>"; };
+		D5883BB31562DEC53F73927E1912D330 /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
 		E34CF088F04CF3F96B4FBC23DD7A7705 /* Pods-QKMRZScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QKMRZScanner-umbrella.h"; sourceTree = "<group>"; };
 		E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZParser; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F4FC8BD87F0ACD541B5B85D454B5FBC2 /* QKMRZParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.release.xcconfig; sourceTree = "<group>"; };
+		F23304CBD312E916F0234E1C7C7C0AF9 /* QKMRZParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QKMRZParser-dummy.m"; sourceTree = "<group>"; };
+		F60B7BF6BB4851DFF78982EAE148D8B8 /* QKMRZParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QKMRZParser.debug.xcconfig; sourceTree = "<group>"; };
 		F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F992D6C9C78B6C8BE3703B97E9CC9D6C /* td1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td1.swift; path = QKMRZParser/Parsers/td1.swift; sourceTree = "<group>"; };
-		FCBEA1220B630E8A67E25C66C94B7B03 /* Bundle+pathToTrainedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+pathToTrainedData.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/Bundle+pathToTrainedData.swift"; sourceTree = "<group>"; };
+		F8EDB52D5AA6A33DA47E2CB09472FB24 /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
+		FF9F6126FD80585A41547535BB8B8BF6 /* td1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = td1.swift; path = QKMRZParser/Parsers/td1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EDE6DE3A0C828C2022D4AF2D194A67C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				514DABFCF68B6064CB9F69E7E4A4ECFD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6CA213B9560E66EDA0D4DC0559958485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CCF4F9ADD424B03CB24156D94D9449E /* Foundation.framework in Frameworks */,
 				234DAA85D9879468B1D6704A3B63BC7D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9E67197CADAF424938FA0A2F0DE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4253E8AED6D7B9513E598E2017E2FDAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,26 +138,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C21A5ABE9C24EAC94EE5AEE0DC03935 /* SwiftyTesseract */ = {
+		1045FBB312C2C528F5F1F44ECAAC0657 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E642AF7A4E16EDA6F40AE45A28C9BE4 /* BoundingBox.swift */,
-				FCBEA1220B630E8A67E25C66C94B7B03 /* Bundle+pathToTrainedData.swift */,
-				4939D8EA1AE9D58B7C068612AD48D838 /* EngineMode.swift */,
-				01970B8478ACBE72EDFBD75E1E229BCA /* LanguageModelDataSource.swift */,
-				40894B9889E04E5E47A92D39CE825B40 /* LanguageStringConverter.swift */,
-				795CA86315DFCD95AEA79A1C59F18E9F /* RecognitionLanguage.swift */,
-				DFC6C3638DAD8419432B14057ADB8ECD /* RecognizedBlock.swift */,
-				5C93867BC1CF9580107A380098C35B64 /* ResultIteratorLevel.swift */,
-				59AEB18EA4F15046F8201B7DF02E3120 /* String+Extensions.swift */,
-				63DB73370E96B282327EA3DB57E8070A /* SwiftyTesseract.swift */,
-				480BF6AEE4D213F68CCAB18B201E1A70 /* SwiftyTesseractError.swift */,
-				CABA7CEDAD4BBBAE33B4B0E12AA67A50 /* TesseractVariableName.swift */,
-				E62C02F4DEF38CD118D7C012E6EAEAB5 /* Frameworks */,
-				C7698698F09A8432E1C92CD51BB1A9FD /* Support Files */,
+				74AECDB56EC95C1AD5C27D11EF1156CB /* SwiftyTesseract.modulemap */,
+				F8EDB52D5AA6A33DA47E2CB09472FB24 /* SwiftyTesseract-dummy.m */,
+				4FDDE51DA8A0D8AC8B4B2CEFE578F1A9 /* SwiftyTesseract-Info.plist */,
+				64FAA583FC1A227218662750DF532813 /* SwiftyTesseract-prefix.pch */,
+				76CAED26577AD7C4BE8953D95DEFB325 /* SwiftyTesseract-umbrella.h */,
+				07A3A1FF3DF769F0B93A1783B8B780AA /* SwiftyTesseract-xcframeworks.sh */,
+				6B2D0EA7B2399CD05CC7203F2C9AD3C9 /* SwiftyTesseract.debug.xcconfig */,
+				AB980565C094D810C6E89CBDBA607E53 /* SwiftyTesseract.release.xcconfig */,
 			);
-			name = SwiftyTesseract;
-			path = SwiftyTesseract;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTesseract";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -196,21 +162,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3CD39FBBD81A4BAA3F019AF1A55F63C7 /* QKMRZParser */ = {
+		319204C586E6EF9B71F918708D35B631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B1F255E74F7E5E53608CD2F111CE582 /* MRZField.swift */,
-				576B65531E7C7A8C8E49A4DC2B25A35A /* MRZFieldFormatter.swift */,
-				AD3C0628F0E6FD6AD569EA0DC6955579 /* QKMRZParser.swift */,
-				D66B66F1BD7EB50962A581BBC9BAB5F6 /* QKMRZResult.swift */,
-				7C09852CCF439FBC0981F4A55D031C3A /* String-Ext.swift */,
-				F992D6C9C78B6C8BE3703B97E9CC9D6C /* td1.swift */,
-				33A80A71DA09EFF1F83169010F0B2DAF /* td2.swift */,
-				D35D2D8AE3D54F34365E8614A8B8AB78 /* td3.swift */,
-				E0AB085155B6842184173BE8407AD951 /* Support Files */,
+				28BFE9113EBD01E76CCC43AF125C406E /* Pods-QKMRZScanner */,
+				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */,
+				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */,
 			);
-			name = QKMRZParser;
-			path = QKMRZParser;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -238,25 +197,41 @@
 			path = "Target Support Files/Pods-QKMRZScanner";
 			sourceTree = "<group>";
 		};
-		646C83F8847A1CCE360010677E335D7E /* Pods */ = {
+		67CAFA9982095848019CC347E5D93773 /* SwiftyTesseract */ = {
 			isa = PBXGroup;
 			children = (
-				DFCEA37B07BBC62EE23F61B530BDEC76 /* DeviceKit */,
-				3CD39FBBD81A4BAA3F019AF1A55F63C7 /* QKMRZParser */,
-				0C21A5ABE9C24EAC94EE5AEE0DC03935 /* SwiftyTesseract */,
+				CAFCCB176C8F94A7A2F0676F2C7898F7 /* BoundingBox.swift */,
+				775641D99A1A09F878C9968A6291EC54 /* Bundle+pathToTrainedData.swift */,
+				1A2459A4DB3377582B17262DDB5CFC20 /* EngineMode.swift */,
+				63427E3631E2CF0D78ACC49EF935D736 /* LanguageModelDataSource.swift */,
+				0F17F0E0F3BEA7E0BB56BA906A55C324 /* LanguageStringConverter.swift */,
+				4B99FCA5140480A37CCEF3A2D2A5819A /* RecognitionLanguage.swift */,
+				085A9BA6FB2527C69D809DC696E544B7 /* RecognizedBlock.swift */,
+				D4E7A583B7872EFD4635FB423163D027 /* ResultIteratorLevel.swift */,
+				0BE709268F7888EA927B8241F13E950B /* String+Extensions.swift */,
+				5A1703BC07E1117CC746847067F8AF51 /* SwiftyTesseract.swift */,
+				B318ECB94D84ADC505DB291019E68D6E /* SwiftyTesseractError.swift */,
+				D391EF7A2DC81E8F324C0A3218DCFEDE /* TesseractVariableName.swift */,
+				BE6119ACF001181D8195957D2C13CDEC /* Frameworks */,
+				1045FBB312C2C528F5F1F44ECAAC0657 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftyTesseract;
+			path = SwiftyTesseract;
 			sourceTree = "<group>";
 		};
-		7C979BC17381CE20C0D161E367E35D64 /* Products */ = {
+		82B691747EAFBFBBBFDFD67EB8C948D3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
-				28BFE9113EBD01E76CCC43AF125C406E /* Pods-QKMRZScanner */,
-				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */,
-				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */,
+				513E12F7583B50366675CCAAD5B91297 /* QKMRZParser.modulemap */,
+				F23304CBD312E916F0234E1C7C7C0AF9 /* QKMRZParser-dummy.m */,
+				5B11AC741233ADB17C81A8911CB7C32A /* QKMRZParser-Info.plist */,
+				3D2EE1909B4134EF696C984C9C70767F /* QKMRZParser-prefix.pch */,
+				A821D284B29A8AA38A436CA620B48CB1 /* QKMRZParser-umbrella.h */,
+				F60B7BF6BB4851DFF78982EAE148D8B8 /* QKMRZParser.debug.xcconfig */,
+				459A70B8E0DDDC6BCD25C2E28EB3940C /* QKMRZParser.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/QKMRZParser";
 			sourceTree = "<group>";
 		};
 		95A24DA666BDCBB9A3AFA609812EBBD7 /* Targets Support Files */ = {
@@ -267,35 +242,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C4368F8CBE0383E854574701D5DB939F /* Support Files */ = {
+		A3750814BB6632E7E30A0274B3200B6C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB1F2DB15CA2DCB9C59955721CAFB31 /* DeviceKit.modulemap */,
-				6C7C833B8C137B180BCA6079E7C69554 /* DeviceKit-dummy.m */,
-				87A9B60BBEE5F426190C32C78921D5CF /* DeviceKit-Info.plist */,
-				416CB2470DC59C8AD4FA49498224E2E1 /* DeviceKit-prefix.pch */,
-				3F86135170F8A8BFEDC2AB6D8BA95F56 /* DeviceKit-umbrella.h */,
-				7B994F2F06D2A32CA80955B954B5ADE0 /* DeviceKit.debug.xcconfig */,
-				913D6B312887946F637197596884C720 /* DeviceKit.release.xcconfig */,
+				F40B859E62DFE068102C47AD7D0B276A /* QKMRZParser */,
+				67CAFA9982095848019CC347E5D93773 /* SwiftyTesseract */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DeviceKit";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C7698698F09A8432E1C92CD51BB1A9FD /* Support Files */ = {
+		BE6119ACF001181D8195957D2C13CDEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11B14E2E73ECE184335232B42A3986C4 /* SwiftyTesseract.modulemap */,
-				E084182C977511BF218595EB4B9A806F /* SwiftyTesseract-dummy.m */,
-				B7C0A9E3C2420DC72BB2FA89307D2067 /* SwiftyTesseract-Info.plist */,
-				8AEF165B5C38FFA7341C7F5BEBCD82BC /* SwiftyTesseract-prefix.pch */,
-				7A9B788BA55312BDF69106B6BDDB7327 /* SwiftyTesseract-umbrella.h */,
-				AD0607771434C85A876D7FD5FE8432FE /* SwiftyTesseract-xcframeworks.sh */,
-				58916D0C0670BB02D530257C5450D3BF /* SwiftyTesseract.debug.xcconfig */,
-				18CBB1E13BE200F9C7D6AFEDF3B646AA /* SwiftyTesseract.release.xcconfig */,
+				0B841BAAB7C1406DEDAFBE646AAB1DDD /* libtesseract.xcframework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyTesseract";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -303,53 +264,37 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				646C83F8847A1CCE360010677E335D7E /* Pods */,
-				7C979BC17381CE20C0D161E367E35D64 /* Products */,
+				A3750814BB6632E7E30A0274B3200B6C /* Pods */,
+				319204C586E6EF9B71F918708D35B631 /* Products */,
 				95A24DA666BDCBB9A3AFA609812EBBD7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DFCEA37B07BBC62EE23F61B530BDEC76 /* DeviceKit */ = {
+		F40B859E62DFE068102C47AD7D0B276A /* QKMRZParser */ = {
 			isa = PBXGroup;
 			children = (
-				51BEEDAFD8F3407468EC92F0BFE1673A /* Device.generated.swift */,
-				C4368F8CBE0383E854574701D5DB939F /* Support Files */,
+				D5883BB31562DEC53F73927E1912D330 /* MRZField.swift */,
+				28E7B22948C7C17365A96B96FBB9AFD2 /* MRZFieldFormatter.swift */,
+				29AC921AE798C57115592E1FB27DC7E6 /* QKMRZParser.swift */,
+				1C3F9C29E1F656B937696BF59E0DB8A7 /* QKMRZResult.swift */,
+				1C1231DCFE478E703E345203B8782870 /* String-Ext.swift */,
+				FF9F6126FD80585A41547535BB8B8BF6 /* td1.swift */,
+				0DE969423F57B1E3B27088C482873F00 /* td2.swift */,
+				81E7B17B393C6807D5EC6C4FA4C84B03 /* td3.swift */,
+				82B691747EAFBFBBBFDFD67EB8C948D3 /* Support Files */,
 			);
-			name = DeviceKit;
-			path = DeviceKit;
-			sourceTree = "<group>";
-		};
-		E0AB085155B6842184173BE8407AD951 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0CD5FF39554F16A602DA691836EE7DC /* QKMRZParser.modulemap */,
-				173EA427A657397AFE1132B1826E67A0 /* QKMRZParser-dummy.m */,
-				BA573C0C12151CECB2065B0B44BEBF0A /* QKMRZParser-Info.plist */,
-				3714864A296654D46486F40D244BA3CF /* QKMRZParser-prefix.pch */,
-				1201A724DC9C25825E409247FD2A06DE /* QKMRZParser-umbrella.h */,
-				875F2915B900AA25F823D570C17ABA9F /* QKMRZParser.debug.xcconfig */,
-				F4FC8BD87F0ACD541B5B85D454B5FBC2 /* QKMRZParser.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QKMRZParser";
-			sourceTree = "<group>";
-		};
-		E62C02F4DEF38CD118D7C012E6EAEAB5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8CAB04374CC1775789A22BED14211887 /* libtesseract.xcframework */,
-			);
-			name = Frameworks;
+			name = QKMRZParser;
+			path = QKMRZParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		845D75941FED5AA577E80BA65DB2138F /* Headers */ = {
+		485409E9B089AB824A116685FB813776 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8CDCEF555F83B7A45EE541A491B0EBE /* Pods-QKMRZScanner-umbrella.h in Headers */,
+				44FFA8BD533295668967915F2F7EBE10 /* Pods-QKMRZScanner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,14 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92498F7F095CDEA62643A3A813D15BC7 /* SwiftyTesseract-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B869F45523B08C188EC6722E1DD8C363 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,19 +319,18 @@
 /* Begin PBXNativeTarget section */
 		02AF989565A12ECBC4DF73E132D043A6 /* Pods-QKMRZScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 292AECF85A8B4FF7F566C955B650AA6A /* Build configuration list for PBXNativeTarget "Pods-QKMRZScanner" */;
+			buildConfigurationList = 4802E83B9F5B71C1E6AEDA9DA5209258 /* Build configuration list for PBXNativeTarget "Pods-QKMRZScanner" */;
 			buildPhases = (
-				845D75941FED5AA577E80BA65DB2138F /* Headers */,
-				56E80707AD9C8CBCAF0E65FDB0114A2A /* Sources */,
-				0EDE6DE3A0C828C2022D4AF2D194A67C /* Frameworks */,
-				736FBDDCB4A80ADE2F2615B88D8027B8 /* Resources */,
+				485409E9B089AB824A116685FB813776 /* Headers */,
+				F5D5EE29ABBB33D41A4708C8BAE137BA /* Sources */,
+				BFE9E67197CADAF424938FA0A2F0DE10 /* Frameworks */,
+				A6AED605E11CD63EF13398FD53F13567 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				52486BADC0B2F10281797D341C745B5C /* PBXTargetDependency */,
-				0189A41A7AF8E9DC2CE3EDA256AB28A4 /* PBXTargetDependency */,
-				53FB3CB762DFFBD70C3B91DA6C38EA40 /* PBXTargetDependency */,
+				0C3BF054A7B82E388D8A98ED29AF3110 /* PBXTargetDependency */,
+				260458B12778110C7B706AEFE33D2BE8 /* PBXTargetDependency */,
 			);
 			name = "Pods-QKMRZScanner";
 			productName = Pods_QKMRZScanner;
@@ -417,24 +353,6 @@
 			name = QKMRZParser;
 			productName = QKMRZParser;
 			productReference = E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */;
-			productType = "com.apple.product-type.framework";
-		};
-		4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */;
-			buildPhases = (
-				B869F45523B08C188EC6722E1DD8C363 /* Headers */,
-				B024EDE69B3C51D739853194CE746FE4 /* Sources */,
-				6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */,
-				8EE6FBD90231B8B4128EE874B295E36F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DeviceKit;
-			productName = DeviceKit;
-			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */ = {
@@ -474,11 +392,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7C979BC17381CE20C0D161E367E35D64 /* Products */;
+			productRefGroup = 319204C586E6EF9B71F918708D35B631 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
 				02AF989565A12ECBC4DF73E132D043A6 /* Pods-QKMRZScanner */,
 				44846E5E2172F853B4F70588F8115052 /* QKMRZParser */,
 				5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */,
@@ -494,14 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		736FBDDCB4A80ADE2F2615B88D8027B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EE6FBD90231B8B4128EE874B295E36F /* Resources */ = {
+		A6AED605E11CD63EF13398FD53F13567 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,370 +485,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		56E80707AD9C8CBCAF0E65FDB0114A2A /* Sources */ = {
+		F5D5EE29ABBB33D41A4708C8BAE137BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA2F62123304E4A5817212137314E97 /* Pods-QKMRZScanner-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */,
-				44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */,
+				53FA37C91A84D8B9C632E1D9929078FA /* Pods-QKMRZScanner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0189A41A7AF8E9DC2CE3EDA256AB28A4 /* PBXTargetDependency */ = {
+		0C3BF054A7B82E388D8A98ED29AF3110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QKMRZParser;
 			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
-			targetProxy = EEE5FB23647617AFBD8ED7E2E1ED1A70 /* PBXContainerItemProxy */;
+			targetProxy = 0DAE4534B9BCFD2E03B0E1B21B36493B /* PBXContainerItemProxy */;
 		};
-		52486BADC0B2F10281797D341C745B5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DeviceKit;
-			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
-			targetProxy = CBDF86094EA44E9B224CF97F81185F3E /* PBXContainerItemProxy */;
-		};
-		53FB3CB762DFFBD70C3B91DA6C38EA40 /* PBXTargetDependency */ = {
+		260458B12778110C7B706AEFE33D2BE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyTesseract;
 			target = 5FDA8701204211983085669C4E12E6FE /* SwiftyTesseract */;
-			targetProxy = 1E623929F7386E006A9D8E3859A8F5A1 /* PBXContainerItemProxy */;
+			targetProxy = DF21C428A3D2B4C8D336515CC7FDFF86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15A9338BE712D918312B9F9E412D19D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4FC8BD87F0ACD541B5B85D454B5FBC2 /* QKMRZParser.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
-				PRODUCT_MODULE_NAME = QKMRZParser;
-				PRODUCT_NAME = QKMRZParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		61F60C66E3488E75BD456377C92D5BDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18CBB1E13BE200F9C7D6AFEDF3B646AA /* SwiftyTesseract.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyTesseract;
-				PRODUCT_NAME = SwiftyTesseract;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		82A614B2AF62D5BB8DE37269255A2FC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 913D6B312887946F637197596884C720 /* DeviceKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
-				PRODUCT_MODULE_NAME = DeviceKit;
-				PRODUCT_NAME = DeviceKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		947D8203855A1CAE1F0BA52255D80D91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 875F2915B900AA25F823D570C17ABA9F /* QKMRZParser.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
-				PRODUCT_MODULE_NAME = QKMRZParser;
-				PRODUCT_NAME = QKMRZParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9C7C1DD2BD459D366946863A81FC5773 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		AD01808A186D187B8A757E95B0B08588 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58916D0C0670BB02D530257C5450D3BF /* SwiftyTesseract.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyTesseract;
-				PRODUCT_NAME = SwiftyTesseract;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2292B18012C6516EE194956E631ECF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0579590D0C93205406E0F132CC75E5C /* Pods-QKMRZScanner.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BCE8D4F854B4245D453EC4CD64825C50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28325BB70560DB246AB3AE5D24A53B18 /* Pods-QKMRZScanner.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C0A8BCE9BF332B1D40A75A638469062E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B994F2F06D2A32CA80955B954B5ADE0 /* DeviceKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
-				PRODUCT_MODULE_NAME = DeviceKit;
-				PRODUCT_NAME = DeviceKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D5A8A10C73A63CFC28E54D478C38EFF3 /* Debug */ = {
+		02F802780CB56A6446C7D900E367E1FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -991,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1003,6 +576,265 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		1364BF1D02BEDC749B89AD82E6D0533C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0579590D0C93205406E0F132CC75E5C /* Pods-QKMRZScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15A9338BE712D918312B9F9E412D19D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459A70B8E0DDDC6BCD25C2E28EB3940C /* QKMRZParser.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61F60C66E3488E75BD456377C92D5BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB980565C094D810C6E89CBDBA607E53 /* SwiftyTesseract.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		947D8203855A1CAE1F0BA52255D80D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60B7BF6BB4851DFF78982EAE148D8B8 /* QKMRZParser.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QKMRZParser/QKMRZParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QKMRZParser/QKMRZParser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QKMRZParser/QKMRZParser.modulemap";
+				PRODUCT_MODULE_NAME = QKMRZParser;
+				PRODUCT_NAME = QKMRZParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD01808A186D187B8A757E95B0B08588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2D0EA7B2399CD05CC7203F2C9AD3C9 /* SwiftyTesseract.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTesseract/SwiftyTesseract-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTesseract/SwiftyTesseract.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTesseract;
+				PRODUCT_NAME = SwiftyTesseract;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD42D0FB8065B2C176F02274B10A6303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28325BB70560DB246AB3AE5D24A53B18 /* Pods-QKMRZScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QKMRZScanner/Pods-QKMRZScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5ECF10F20E087973F0918B3F0B20FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1025,11 +857,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		292AECF85A8B4FF7F566C955B650AA6A /* Build configuration list for PBXNativeTarget "Pods-QKMRZScanner" */ = {
+		4802E83B9F5B71C1E6AEDA9DA5209258 /* Build configuration list for PBXNativeTarget "Pods-QKMRZScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCE8D4F854B4245D453EC4CD64825C50 /* Debug */,
-				B2292B18012C6516EE194956E631ECF0 /* Release */,
+				DD42D0FB8065B2C176F02274B10A6303 /* Debug */,
+				1364BF1D02BEDC749B89AD82E6D0533C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1037,17 +869,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5A8A10C73A63CFC28E54D478C38EFF3 /* Debug */,
-				9C7C1DD2BD459D366946863A81FC5773 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0A8BCE9BF332B1D40A75A638469062E /* Debug */,
-				82A614B2AF62D5BB8DE37269255A2FC4 /* Release */,
+				02F802780CB56A6446C7D900E367E1FA /* Debug */,
+				F5ECF10F20E087973F0918B3F0B20FFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
