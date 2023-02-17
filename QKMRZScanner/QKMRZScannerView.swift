@@ -12,6 +12,7 @@ import QKMRZParser
 import AudioToolbox
 import Vision
 import os.log
+import DeviceKit
 
 // MARK: - QKMRZScannerViewDelegate
 public protocol QKMRZScannerViewDelegate: AnyObject {
