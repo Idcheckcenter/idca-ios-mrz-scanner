@@ -223,7 +223,9 @@ public class QKMRZScannerView: UIView {
         var deviceTypes: [AVCaptureDevice.DeviceType] = Array()
         if #available(iOS 13.0, *) {
             let identifier = identifier
-            if (identifier == "iPhone15,2" || identifier == "iPhone15,3" || identifier == "iPhone16,1" || identifier == "iPhone16,2") {
+            if (identifier == "iPhone15,2" || identifier == "iPhone15,3"
+                || identifier == "iPhone16,1" || identifier == "iPhone16,2"
+                || identifier == "iPhone17,1" || identifier == "iPhone17,2") {
                 deviceTypes.append(.builtInTripleCamera)
                 deviceTypes.append(.builtInDualWideCamera)
             }
